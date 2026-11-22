@@ -1,0 +1,21 @@
+Medida,Valor,Computada,Observacoes
+Número de vértices (|V|) — Dirigido / Não-dirigido,"67,180",Sim,Após remoção de auto-loops
+Número de vértices (|V|) — Maior Componente (GCC),"65,648 (97.72%)",Sim,Extração da maior componente conexa
+Número de arestas (|E|) — Dirigido simples,"339,643",Sim,Agregado a partir de 858.488 links brutos
+Número de arestas (|E|) — Não-dirigido simples,"309,667",Sim,"Fusão de pares (u,v) e (v,u)"
+Número de arestas (|E|) — GCC (não-dirigido),"308,839",Sim,Arestas na maior componente conexa
+Grau mínimo / máximo / médio (Não-dirigido),"1 / 5,547 / 9.2190",Sim,Mediana = 1.0
+In-degree mín / máx / médio (Dirigido),"0 / 5,448 / 5.0557",Sim,Mediana = 1.0
+Out-degree mín / máx / médio (Dirigido),"0 / 3,111 / 5.0557",Sim,Mediana = 1.0
+Distribuição de graus,Ver Figura e CSV,Sim,PMF e CCDF em escala log-log
+Densidade (Dirigido),0.00007526,Sim,Grafo altamente esparso
+Densidade (Não-dirigido),0.00013723,Sim,GCC = 0.00014333
+Nº de componentes conexas (Não-dirigido / WCC),712,Sim,"Maior = 65,648; 2ª maior = 9"
+Nº de componentes fortemente conexas (SCC),"45,564",Sim,"Maior SCC = 21,432 (31.90%)"
+Tamanho de cada componente,Ver CSVs de componentes,Sim,Distribuição completa salva em resultados
+Diâmetro (GCC),14,Sim,Exato na GCC (555.69s)
+Raio (GCC),7,Sim,Exato na GCC (580.67s)
+Comprimento médio dos caminhos L (GCC),3.6745,Sim,Exato na GCC (559.89s)
+Coeficiente de clusterização médio (C),0.2170,Sim,GCC = 0.2219; Trans. global = 0.0558
+Número de triângulos,"2,405,288",Sim,Contagem exata no grafo não-dirigido
+Visualização do grafo (versão reduzida),Ver Figura (Top 50 hubs),Sim,Subgrafo induzido pelos 50 maiores hubs da GCC

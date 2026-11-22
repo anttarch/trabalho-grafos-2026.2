@@ -1,0 +1,11 @@
+algoritmo,grafo_utilizado,complexidade_teorica,n_execucoes,distribuicao_ic,media_s,desvio_padrao_s,margem_erro_95_s,ic95_inf_s,ic95_sup_s,resultado_observado
+BFS,"GCC (65,648 nós, 308,839 arestas)",O(|V| + |E|),30,Normal (Z),0.176005,0.001026,0.000367,0.175637,0.176372,"65,648 nós alcançados"
+DFS (iterativa),"GCC (65,648 nós, 308,839 arestas)",O(|V| + |E|),30,Normal (Z),0.231581,0.004885,0.001748,0.229833,0.233329,"65,648 nós alcançados"
+Eulerianidade,"Completo não-dirigido (67,180 nós)",O(|V| + |E|),30,Normal (Z),0.030214,0.000566,0.000202,0.030011,0.030416,"Não-Euleriano (desconexo) (46,912 nós de grau ímpar)"
+Tarjan (SCCs),"Completo dirigido (67,180 nós, 339,643 arestas)",O(|V| + |E|),30,Normal (Z),0.364115,0.001335,0.000478,0.363637,0.364593,"45,564 SCCs (maior=21,432)"
+Dijkstra (weight_dist),"GCC (65,648 nós, 308,839 arestas)",O((|V| + |E|) log |V|),30,Normal (Z),0.536216,0.015747,0.005635,0.530581,0.541851,"65,648 alcançados; dist média=0.8522"
+AGM — Kruskal,"GCC (65,648 nós, 308,839 arestas)",O(|E| log |E|),30,Normal (Z),0.415699,0.006474,0.002317,0.413382,0.418015,"65,647 arestas; peso total=47008.74"
+AGM — Prim,"GCC (65,648 nós, 308,839 arestas)",O((|V| + |E|) log |V|),30,Normal (Z),1.595421,0.010482,0.003751,1.591671,1.599172,"65,647 arestas; peso total=47008.74"
+Bellman-Ford (positivos),"Subgrafo Top-500 (500 nós, 40,942 arestas)",O(|V| * |E|),30,Normal (Z),0.046631,0.000582,0.000208,0.046423,0.046839,ciclo_neg=False; 491 nós alcançados
+Bellman-Ford (assinados),"Subgrafo Top-500 (500 nós, 40,942 arestas)",O(|V| * |E|),10,t-Student (gl=9),4.247762,0.02062,0.014751,4.233011,4.262512,ciclo_neg=True; 491 nós alcançados
+Floyd-Warshall,"Subgrafo Top-200 (200 nós, 13,680 arestas)",O(|V|^3),10,t-Student (gl=9),1.11807,0.026479,0.018942,1.099128,1.137012,dist média ponderada=0.2027

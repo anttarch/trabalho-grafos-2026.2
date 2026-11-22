@@ -1,0 +1,23 @@
+metrica,valor
+raw_edges_body,286561
+raw_edges_title,571927
+raw_edges_total,858488
+raw_nodes_total,67180
+raw_pos_edges,776278
+raw_neg_edges,82210
+raw_neg_fraction,0.095761
+timestamp_min,2013-12-31 16:20:20
+timestamp_max,2017-04-30 16:58:21
+removed_missing,0
+removed_self_loops,0
+clean_multigraph_edges,858488
+clean_nodes,67180
+directed_simple_edges,339643
+removed_parallel_directed_edges,518845
+undirected_simple_edges,309667
+gcc_nodes,65648
+gcc_edges_undirected,308839
+gcc_node_fraction,0.977196
+sub500_nodes,500
+sub500_edges_directed,40942
+sub500_edges_undirected,35612

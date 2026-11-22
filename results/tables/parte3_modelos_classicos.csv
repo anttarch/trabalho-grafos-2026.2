@@ -1,0 +1,5 @@
+modelo,vertices,arestas,grau_medio,grau_max,clustering_medio_C,caminho_medio_L_est
+Reddit Hyperlinks (GCC Real),65648,308839,9.409,5547,0.221882,3.6459
+"Erdős-Rényi G(n, m)",65648,308839,9.409,25,0.000141,5.208
+"Watts-Strogatz (nei=5, p=0.05)",65648,328240,10.0,15,0.493411,7.507
+Barabási-Albert (m=5),65648,328225,10.0,796,0.001087,4.2613

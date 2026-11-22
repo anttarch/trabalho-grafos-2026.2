@@ -1,0 +1,17 @@
+{
+  "n_gcc": 65648,
+  "m_gcc": 308839,
+  "avg_degree": 9.4089,
+  "C_real_manual": 0.221882,
+  "L_real_manual_est": 3.624444,
+  "L_real_manual_ci95": 0.040411,
+  "C_rand_sim_manual": 0.000132,
+  "L_rand_sim_manual": 5.201333,
+  "L_rand_sim_ci95": 0.014951,
+  "rand_gcc_size": 65644,
+  "C_rand_teorico_ER": 0.000143,
+  "L_rand_teorico_ER": 4.948146,
+  "razao_C_sobre_Crand": 1677.45,
+  "razao_L_sobre_Lrand": 0.6968,
+  "sigma_small_world": 2407.26
+}

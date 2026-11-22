@@ -1,0 +1,6 @@
+metrica,baseline_gcc,aleatoria_media,aleatoria_dp,ataque_degree,ataque_pagerank
+A — Fração da Maior Componente (S),1.0,0.97292,0.00636,0.32664,0.30625
+A' — Tamanho Absoluto da GCC,65648.0,60676.43333,396.65052,20371.0,19099.0
+B — Número de Componentes (c),1.0,1623.2,384.77485,37160.0,38275.0
+C — Comprimento Médio dos Caminhos (L),3.65895,3.67789,0.03557,12.09947,12.16913
+D — Fração de Nós Isolados,0.0,0.02522,0.00602,0.55477,0.57048

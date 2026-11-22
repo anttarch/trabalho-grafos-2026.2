@@ -1,0 +1,10 @@
+{
+  "gamma_logbin": 1.9768,
+  "r2_logbin": 0.9901,
+  "gamma_ccdf": 2.1488,
+  "r2_ccdf": 0.9823,
+  "gamma_mle_kmin10": 1.8785,
+  "n_tail_kmin10": 8084,
+  "frac_deg_eq_1": 0.5034,
+  "frac_deg_ge_100": 0.0149
+}
